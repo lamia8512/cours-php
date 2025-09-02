@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Orbitron:wght@400..900&family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Kufam:ital,wght@0,400..900;1,400..900&display=swap');
+ 
+*{
+    font-family: "lato", sans-serif;
+}
+ 
+.container {
+    width: 90%; /* Définit la largeur du conteneur à 90% de son parent */
+    height: 130%;
+    margin: auto; /* Centre le conteneur horizontalement */
+    padding-top: 5px;
+}
+ 
+header{
+    background-color: #9892ce; /* Définit la couleur de fond de l'en-tête */
+    color: #fff; /* Définit la couleur du texte dans l'en-tête */
+    width: 100%; /* Définit la largeur de l'en-tête à 100% de la fenêtre */
+    top: 0; /* Positionne l'en-tête en haut de la fenêtre */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+ 
+header h1 {
+    text-align: center; /* Centre le texte du titre */
+    justify-content: center;
+    font-size: 20px;
+    margin-bottom: 0.5rem; /* Ajoute un espacement en bas du titre */
+}
+header p{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+ 
+nav ul {
+    display: flex; /* Utilise Flexbox pour la mise en page */
+    justify-content: center; /* Centre les éléments de la liste horizontalement */
+    list-style: none; /* Supprime les puces de la liste */
+    justify-content: end;
+ 
+}
+ 
+nav ul li {
+    margin: 0 1rem; /* Ajoute un espacement horizontal entre les éléments de la liste */
+}
+ 
+nav ul li a {
+    color: white; /* Définit la couleur du texte des liens */
+    text-decoration: none; /* Supprime le soulignement des liens */
+    font-size: large; /* Définit la taille de la police des liens */
+    font-family: "exo", sans-serif; 
+}
+ 
+.white{
+    color: white;
+}
+ 
+hr{
+    color: black;
+    border:1px solid;
+    inline-size: 30%;
+}
+
+.container p , footer h3{
+font-family: "exo", sans-serif; 
+}
+
+.bottom{
+    background-color: #9892ce;
+    margin-top:-100px;
+    padding-top: 50px;
+    height: 150px;
+}
+ 
+ 
+.bloc{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+ 
+.padding{
+    color: white;
+    padding-top: 22px;
+    font-size: small;
+}
